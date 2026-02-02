@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div>
+        <h1>Contact Me</h1>
+        <hr>
+        <form action="mailme.html">
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <label for="FirstName">First Name: </label>
+                <input type="text" name="FisrtName" id="FirstName">
+
+                <hr>
+                <label for="LastName">Last Name: </label>
+                <input type="text" name="LastName" id="LastName">
+
+                <hr>
+                <label for="Number">Phone Number: </label>
+                <input type="number" name="Phone" id="Number">
+
+                <hr>
+                <label for="Email">Email: </label>
+                <input type="email" name="email" id="Email">
+            </fieldset>
+
+
+            <br>
+            <fieldset>
+                <legend><b>Comments Section</b></legend>
+            <label for="Comments">Write Your Comments Below: </label>
+            <hr>
+            <textarea name="Comments" id="Comments" placeholder="Write Your Comments Below:" pattern="[a-zA-Z]"
+                maxlength="500" cols="40" rows="20">
+            </textarea>
+
+            <hr>
+            <input type="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
